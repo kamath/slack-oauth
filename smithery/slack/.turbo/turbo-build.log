@@ -1,0 +1,11 @@
+
+
+> @smithery/mcp-slack@1.0.0 build
+> smithery build --out dist/index.cjs
+
+[1G[0K[2m[1m[3m[38;2;234;88;12mSMITHERY[39m[23m[22m[2m [1m[3m[38;2;234;88;12mv1.4.6[39m[23m[22m[2m Building MCP server with [36mstreamable http[39m transport...[22m
+[32m✓ Built MCP server in 270ms[39m
+
+  dist/index.cjs  [33m1.92 MB[39m  [90m(entry point)[39m
+
+[1G[0K⠙[1G[0K

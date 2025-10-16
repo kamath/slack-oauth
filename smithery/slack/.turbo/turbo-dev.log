@@ -1,0 +1,34 @@
+
+> @smithery/mcp-slack@1.0.0 dev
+> smithery dev
+
+[1G[0K[2m[1m[3m[38;2;234;88;12mSMITHERY[39m[23m[22m[2m [1m[3m[38;2;234;88;12mv1.4.6[39m[23m[22m[2m Building MCP server with [36mstreamable http[39m transport...[22m
+[90mPress Ctrl+C to stop the server[39m
+[2m[32m✓ Initial build complete[39m[22m
+[2m$ node .smithery/index.cjs[22m
+[2m> Server starting on port [32m8081[39m[22m
+/Users/anirudhkamath/smithery/mono/mcps/slack/.smithery/index.cjs:79064
+  throw new Error("PASETO_SECRET is not set");
+  ^
+
+Error: PASETO_SECRET is not set
+    at Object.<anonymous> [90m(/Users/anirudhkamath/smithery/mono/mcps/slack/[39m.smithery/index.cjs:79064:9[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)[39m
+[90m    at node:internal/main/run_main_module:36:49[39m
+
+Node.js v22.17.0
+[33m⚠️  Process exited with code 1[39m
+[33m[39m
+[33mo/ Shutting down server...[39m
+[31m❌ Failed to start tunnel:[39m [Error: failed to start listener: The endpoint 'https://993ba6ab.ngrok.smithery.ai' is already online. Either
+1. stop your existing endpoint first, or
+2. start both endpoints with `--pooling-enabled` to load balance between them. error_code: ERR_NGROK_334] {
+  code: [32m'GenericFailure'[39m,
+  errorCode: [32m'ERR_NGROK_334'[39m
+}
