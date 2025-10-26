@@ -1,0 +1,26 @@
+{
+  "name": "hello-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "smithery dev",
+    "build": "smithery build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/mcp": "^0.0.1",
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "@smithery/sdk": "^1.7.4",
+    "ai": "^5.0.80",
+    "dotenv": "^17.2.3",
+    "zod": "^3.25.46"
+  },
+  "devDependencies": {
+    "@smithery/cli": "^1.6.3"
+  }
+}
